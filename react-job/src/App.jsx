@@ -6,6 +6,7 @@ import HomeCards from './components/HomeCards';
 const App = () => {
   return (
     <>
+    {/* <!-- Components --> */}
     <Navbar/>
     <Hero/>
     <HomeCards/>
