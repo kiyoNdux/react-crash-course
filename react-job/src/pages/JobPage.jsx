@@ -1,9 +1,18 @@
-import React from 'react'
+import { useParams, useLoaderData } from "react-router-dom";
+import Spinner from "../components/Spinner";
 
 const JobPage = () => {
-  return (
-    <div>JobPage</div>
-  )
+    const { id } = useParams();
+    const job = useLoaderData();
+
+    return <h1>{job.title}</h1>
+};
+
+const jobLoader = async ({ params }) => {
+    const res = await fetch(`/api/jobs/${params.id}`);
+    const data = await res.json();
+    return data;
 }
 
-export default JobPage
+
+export {JobPage as default, jobLoader};
