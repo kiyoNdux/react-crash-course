@@ -4,7 +4,7 @@ import MainLayout from './layouts/MainLayout';
 import JobsPage from './pages/JobsPage';
 import NotFoundPage from './pages/NotFoundPage';
 import JobPage, {jobLoader} from './pages/JobPage';
-import AddJobPage from './pages/AddJobPage';
+import AddJobPage from './pages/addJobPage';
 
 
 const router = createBrowserRouter(
