@@ -83,20 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "df1d",
-      "title": "asd",
-      "type": "Full-Time",
-      "location": "asd",
-      "description": "asd",
-      "salary": "Under $50K",
-      "company": {
-        "name": "asd",
-        "description": "asd",
-        "contactEmail": "asd@test.test",
-        "contactPhone": "555-555-5555"
-      }
     }
   ]
 }
