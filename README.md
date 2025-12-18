@@ -5,7 +5,7 @@ It’s a simple **jobs listing app** that demonstrates the fundamentals of React
 
 ---
 
-## Features
+## Goals
 
 * Built with **React** + **Vite** for a fast development workflow
 * Uses **JSON Server** as a mock REST API backend
@@ -75,7 +75,7 @@ npm run build
 
 ---
 
-## What I Learned
+## What I Hope to Learn
 
 * Setting up a React app with **Vite**
 * Understanding **components, props, and state**
